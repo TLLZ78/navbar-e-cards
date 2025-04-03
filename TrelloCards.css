@@ -1,0 +1,62 @@
+.content{
+    flex: 3;
+    padding: 100px;
+    background: #d7dee7;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.board{
+    
+    display:flex;
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    
+    
+    
+}
+
+img{
+    padding: 2px;
+    width: 170px;
+}
+
+.card{
+    width: 180px;
+    height: 200px;
+    background-color: #444;
+    border: 1px solid #fd0202 ;
+    padding: 0px;
+    box-shadow: 0px 8px 16px rgb(0, 0, 0);
+    align-content:center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+#tarefa-1:hover{
+box-shadow: 0px 8px 16px rgb(31, 255, 1);
+}
+
+#tarefa-2:hover{
+    box-shadow: 0px 8px 16px rgb(10, 172, 158);
+}
+
+#tarefa-3:hover{
+    box-shadow: 0px 8px 16px rgb(138, 16, 12);
+}
+
+#tarefa-4:hover{
+    box-shadow: 0px 8px 16px rgb(228, 206, 11);
+}
